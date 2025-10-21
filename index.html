@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Runze Liu - Quantitative Researcher</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#1e40af',
+                        secondary: '#3b82f6',
+                        accent: '#93c5fd',
+                        dark: '#0f172a',
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'system-ui', 'sans-serif'],
+                    },
+                }
+            }
+        }
+    </script>
+    <style type="text/tailwindcss">
+        @layer utilities {
+            .text-shadow {
+                text-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            }
+            .bg-gradient {
+                background: linear-gradient(135deg, #1e40af 0%, #3b82f6 100%);
+            }
+            .section-fade {
+                transition: all 0.3s ease;
+            }
+            .section-fade:hover {
+                transform: translateY(-5px);
+                box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1);
+            }
+        }
+    </style>
+</head>
+<body class="bg-gray-50 font-sans text-gray-800">
+    <!-- Header Section -->
+    <header class="bg-gradient text-white py-16 px-4 md:px-8">
+        <div class="container mx-auto max-w-5xl">
+            <div class="flex flex-col md:flex-row items-center justify-between">
+                <div class="mb-8 md:mb-0">
+                    <h1 class="text-4xl md:text-5xl font-bold mb-2 text-shadow">Runze Liu</h1>
+                    <h2 class="text-xl md:text-2xl font-light mb-4">Quantitative Researcher</h2>
+                    <div class="flex flex-wrap gap-4">
+                        <a href="mailto:2023111753@stu.sufe.edu.cn" class="flex items-center hover:text-accent transition-colors">
+                            <i class="fa fa-envelope-o mr-2"></i> 2023111753@stu.sufe.edu.cn
+                        </a>
+                        <a href="tel:+8613111593467" class="flex items-center hover:text-accent transition-colors">
+                            <i class="fa fa-phone mr-2"></i> (86)131-1159-3467
+                        </a>
+                    </div>
+                </div>
+                <div class="bg-white rounded-full p-2 shadow-lg">
+                    <div class="w-24 h-24 md:w-32 md:h-32 bg-gray-200 rounded-full flex items-center justify-center">
+                        <i class="fa fa-user text-5xl text-primary opacity-70"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container mx-auto max-w-5xl py-12 px-4 md:px-8">
+        <!-- Skills Summary -->
+        <section class="mb-16 section-fade bg-white p-8 rounded-lg shadow-md">
+            <h2 class="text-2xl font-bold mb-6 text-primary border-b-2 border-accent pb-2">Skills Summary</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div>
+                    <h3 class="text-lg font-semibold mb-3 flex items-center">
+                        <i class="fa fa-code text-secondary mr-2"></i> Programming & Tools
+                    </h3>
+                    <ul class="list-disc list-inside space-y-2 text-gray-700">
+                        <li>Python (Pandas, Polars, PyTorch, HuggingFace)</li>
+                        <li>C++, Linux, LeetCode (300+ problems solved)</li>
+                        <li>Machine Learning: LightGBM, XGBoost, Random Forest, CNN, LSTM</li>
+                        <li>Quantitative Tools: CVXPY, Barra, Factor Analysis</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold mb-3 flex items-center">
+                        <i class="fa fa-line-chart text-secondary mr-2"></i> Domain Expertise
+                    </h3>
+                    <ul class="list-disc list-inside space-y-2 text-gray-700">
+                        <li>Factor Mining & Evaluation Systems</li>
+                        <li>Multi-Factor Integrated Models</li>
+                        <li>Stock Market Prediction & Backtesting</li>
+                        <li>Large Language Models & Transformer Architecture</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education -->
+        <section class="mb-16 section-fade bg-white p-8 rounded-lg shadow-md">
+            <h2 class="text-2xl font-bold mb-6 text-primary border-b-2 border-accent pb-2">Education</h2>
+            <div class="space-y-8">
+                <!-- Shanghai University of Finance and Economics -->
+                <div class="flex flex-col md:flex-row">
+                    <div class="md:w-1/4 mb-4 md:mb-0">
+                        <span class="text-secondary font-semibold">2023.09 - 2027.06</span>
+                    </div>
+                    <div class="md:w-3/4">
+                        <h3 class="text-xl font-semibold mb-1">Shanghai University of Finance and Economics</h3>
+                        <p class="text-gray-600 mb-2">B.S. in Financial Statistics and Risk Management</p>
+                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 text-gray-700">
+                            <div>
+                                <p><i class="fa fa-star text-secondary mr-1"></i> Rank: 9/63 | GPA: 3.64/4.00</p>
+                                <p><i class="fa fa-trophy text-secondary mr-1"></i> People’s Scholarship</p>
+                                <p><i class="fa fa-trophy text-secondary mr-1"></i> College Math Competition (2nd Prize)</p>
+                            </div>
+                            <div>
+                                <p><i class="fa fa-book text-secondary mr-1"></i> Core Courses:</p>
+                                <p class="text-sm">Probability & Statistics, Python Financial Data Analysis, Financial Mathematics, Machine Learning</p>
+                                <p><i class="fa fa-users text-secondary mr-1"></i> Co-founder, SUFE Quantitative Association</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Peking University Summer School -->
+                <div class="flex flex-col md:flex-row">
+                    <div class="md:w-1/4 mb-4 md:mb-0">
+                        <span class="text-secondary font-semibold">2024.07 - 2024.08</span>
+                    </div>
+                    <div class="md:w-3/4">
+                        <h3 class="text-xl font-semibold mb-1">Peking University</h3>
+                        <p class="text-gray-600 mb-2">Summer School Program</p>
+                        <p class="text-gray-700">
+                            <i class="fa fa-book text-secondary mr-1"></i> Course: Large Language Models - From Fundamentals to Frontiers
+                        </p>
+                        <p class="text-sm text-gray-700 mt-1">
+                            Studied Transformer architecture, classic LLMs, and HuggingFace/PyTorch frameworks. Conducted group presentations on cutting-edge research papers.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Internship Experience -->
+        <section class="mb-16 section-fade bg-white p-8 rounded-lg shadow-md">
+            <h2 class="text-2xl font-bold mb-6 text-primary border-b-2 border-accent pb-2">Internship Experience</h2>
+            <div class="space-y-8">
+                <!-- MY Capital -->
+                <div class="flex flex-col md:flex-row">
+                    <div class="md:w-1/4 mb-4 md:mb-0">
+                        <span class="text-secondary font-semibold">2025.07 - 2025.09</span>
+                        <p class="text-gray-600 mt-1">Hainan</p>
+                    </div>
+                    <div class="md:w-3/4">
+                        <h3 class="text-xl font-semibold mb-1">MY Capital (AUM: ¥20B)</h3>
+                        <p class="text-gray-600 mb-3">Quantitative Researcher</p>
+                        <div class="space-y-3 text-gray-700">
+                            <div class="p-3 bg-gray-50 rounded-md">
+                                <h4 class="font-semibold text-secondary">Automated Factor Mining System</h4>
+                                <p class="text-sm">Developed high-performance factor evaluation framework with Polars. Implemented RL-based factor mining system using minute-level OHLC data, achieving out-of-sample IC > 0.09.</p>
+                            </div>
+                            <div class="p-3 bg-gray-50 rounded-md">
+                                <h4 class="font-semibold text-secondary">Daily Multi-Factor Integrated Model</h4>
+                                <p class="text-sm">Constructed multi-GPU parallel MoE/GRU architecture. Achieved top 3 groups with Sharpe > 2, 25% annualized return, and turnover < 6% in out-of-sample backtests.</p>
+                            </div>
+                            <div class="p-3 bg-gray-50 rounded-md">
+                                <h4 class="font-semibold text-secondary">Intraday K-Line Image Recognition</h4>
+                                <p class="text-sm">Converted 5-minute K-lines to grayscale images for CNN-based prediction. Achieved out-of-sample IC > 0.11 through 3-year rolling predictions.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Long Life Investment -->
+                <div class="flex flex-col md:flex-row">
+                    <div class="md:w-1/4 mb-4 md:mb-0">
+                        <span class="text-secondary font-semibold">2025.01 - 2025.04</span>
+                    </div>
+                    <div class="md:w-3/4">
+                        <h3 class="text-xl font-semibold mb-1">Long Life Investment Co., Ltd. (AUM: ¥10B)</h3>
+                        <p class="text-gray-600 mb-3">Quantitative Researcher</p>
+                        <div class="space-y-3 text-gray-700">
+                            <div class="p-3 bg-gray-50 rounded-md">
+                                <h4 class="font-semibold text-secondary">Cutting-edge DL Models Implementation</h4>
+                                <p class="text-sm">Reproduced and improved Attention-LSTM/MASTER models, increasing prediction IC to 0.12. Developed proprietary DL training framework.</p>
+                            </div>
+                            <div class="p-3 bg-gray-50 rounded-md">
+                                <h4 class="font-semibold text-secondary">Backtesting Performance</h4>
+                                <p class="text-sm">Achieved 19% annualized return, max drawdown < 6%, and Sharpe ratio > 2.5 under ¥10M+ capital with Barra neutralization.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects -->
+        <section class="mb-16 section-fade bg-white p-8 rounded-lg shadow-md">
+            <h2 class="text-2xl font-bold mb-6 text-primary border-b-2 border-accent pb-2">Key Projects</h2>
+            <div class="space-y-8">
+                <!-- Multi-Frequency Factor Synthesis -->
+                <div class="flex flex-col md:flex-row">
+                    <div class="md:w-1/4 mb-4 md:mb-0">
+                        <span class="text-secondary font-semibold">2025.06</span>
+                    </div>
+                    <div class="md:w-3/4">
+                        <h3 class="text-xl font-semibold mb-2">Machine Learning Strategy Based on Multi-Frequency Factor Synthesis</h3>
+                        <ul class="list-disc list-inside space-y-2 text-gray-700">
+                            <li>Constructed 100+ feature factors using 1-minute and daily market data</li>
+                            <li>Applied LightGBM for nonlinear factor integration, achieving overall IC 0.09 (daily avg IC 0.07)</li>
+                            <li>40% annualized return with 15% max drawdown under ¥10M capital and 0.15% transaction cost</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Stock Limit-Up/Down Prediction -->
+                <div class="flex flex-col md:flex-row">
+                    <div class="md:w-1/4 mb-4 md:mb-0">
+                        <span class="text-secondary font-semibold">2024.11 - 2024.12</span>
+                    </div>
+                    <div class="md:w-3/4">
+                        <h3 class="text-xl font-semibold mb-2">Machine Learning-Based Stock Limit-Up/Down Prediction</h3>
+                        <ul class="list-disc list-inside space-y-2 text-gray-700">
+                            <li>Processed 330,000+ records of A-share data (fundamentals, limit events, Dragon & Tiger List)</li>
+                            <li>Designed 5-class prediction framework using XGBoost/CatBoost/Random Forest</li>
+                            <li>Achieved 75% accuracy for T+2 day 6-10% return category prediction</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Research Experience -->
+        <section class="section-fade bg-white p-8 rounded-lg shadow-md">
+            <h2 class="text-2xl font-bold mb-6 text-primary border-b-2 border-accent pb-2">Research Experience</h2>
+            <div class="flex flex-col md:flex-row">
+                <div class="md:w-1/4 mb-4 md:mb-0">
+                    <span class="text-secondary font-semibold">2025.01 - Present</span>
+                </div>
+                <div class="md:w-3/4">
+                    <h3 class="text-xl font-semibold mb-2">Research Assistant, Teng Jiaye Research Group (SUFE)</h3>
+                    <ul class="list-disc list-inside space-y-2 text-gray-700">
+                        <li>Participated in weekly lab meetings and academic discussions on ML theory and generalization</li>
+                        <li>Reviewed dozens of cutting-edge research papers in machine learning</li>
+                        <li>First author on project investigating LLM "hallucinations" using statistical testing methods</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-8 px-4 md:px-8">
+        <div class="container mx-auto max-w-5xl">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="mb-4 md:mb-0">
+                    <p class="text-lg font-semibold">Runze Liu - Quantitative Researcher</p>
+                    <p class="text-gray-400 text-sm">Last updated: 2025</p>
+                </div>
+                <div class="flex space-x-6">
+                    <a href="mailto:2023111753@stu.sufe.edu.cn" class="hover:text-accent transition-colors">
+                        <i class="fa fa-envelope-o text-xl"></i>
+                    </a>
+                    <a href="tel:+8613111593467" class="hover:text-accent transition-colors">
+                        <i class="fa fa-phone text-xl"></i>
+                    </a>
+                    <a href="#" class="hover:text-accent transition-colors" target="_blank">
+                        <i class="fa fa-github text-xl"></i>
+                    </a>
+                    <a href="#" class="hover:text-accent transition-colors" target="_blank">
+                        <i class="fa fa-linkedin text-xl"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="backToTop" class="fixed bottom-8 right-8 bg-primary text-white p-3 rounded-full shadow-lg opacity-0 invisible transition-all duration-300">
+        <i class="fa fa-arrow-up"></i>
+    </button>
+
+    <script>
+        // Back to Top Button
+        const backToTopButton = document.getElementById('backToTop');
+        
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 300) {
+                backToTopButton.classList.remove('opacity-0', 'invisible');
+                backToTopButton.classList.add('opacity-100', 'visible');
+            } else {
+                backToTopButton.classList.remove('opacity-100', 'visible');
+                backToTopButton.classList.add('opacity-0', 'invisible');
+            }
+        });
+        
+        backToTopButton.addEventListener('click', () => {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
